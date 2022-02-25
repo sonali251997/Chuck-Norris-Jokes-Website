@@ -1,0 +1,32 @@
+.chips{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    width: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-shadow: 2px 2px #888888;
+    cursor: pointer;
+}
+
+.chips:hover{
+    background-color: #3395ff;
+    color: white;
+}
+
+.jokesListContainer{
+    background-color: #d1d1d3;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width:768px){
+  .jokesListContainer{
+      width: 75%;
+      padding: 10px;
+  }  
+}
